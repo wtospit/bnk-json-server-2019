@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "mon": "node_modules/.bin/nodemon server.js --ignore 'db/db.json'"
+    "mon": "node_modules/.bin/nodemon server.js --ignore 'db/db.json'",
+    "start": "node server.js"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -13,6 +14,7 @@
     "fs-extra": "^7.0.0",
     "jsonwebtoken": "^8.3.0",
     "lowdb": "^1.0.0",
+    "moment": "^2.22.2",
     "nodemon": "^1.17.5",
     "sha256": "^0.2.0"
   }
